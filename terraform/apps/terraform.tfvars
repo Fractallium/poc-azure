@@ -1,7 +1,7 @@
-resource_group_name            = "BlueRG"
-container_app_environment_name = "BlueEnvironment"
-container_registry_name        = "BlueRegistry"
-workload_managed_identity_name = "BlueWorkloadIdentity"
+resource_group_name            = "FractaRG"
+container_app_environment_name = "FractaEnvironment"
+container_registry_name        = "FractaRegistry"
+workload_managed_identity_name = "FractaWorkloadIdentity"
 container_apps                 = [
   {
     name                            = "chatapp"
@@ -32,7 +32,7 @@ container_apps                 = [
             },
             {
               name                  = "AZURE_OPENAI_BASE"
-              value                 = "https://blueopenai.openai.azure.com/"
+              value                 = "https://fractaopenai.openai.azure.com/"
             },
             {
               name                  = "AZURE_OPENAI_KEY"
@@ -132,7 +132,7 @@ container_apps                 = [
             },
             {
               name                  = "AZURE_OPENAI_BASE"
-              value                 = "https://blueopenai.openai.azure.com/"
+              value                 = "https://fractaopenai.openai.azure.com/"
             },
             {
               name                  = "AZURE_OPENAI_KEY"
